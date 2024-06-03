@@ -1,0 +1,104 @@
+body {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.name {
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: #ffffff; /* Light text color */
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon svg {
+  color: #ffffff;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.icon:hover svg {
+  transform: scale(1.1);
+}
+
+/* Custom styles for each icon */
+.icon .fa-linkedin {
+  color: #0e76a8;
+}
+
+.icon .fa-twitter {
+  color: #1DA1F2;
+}
+
+.icon .fa-github {
+  color: #ffffff;
+}
+
+.icon:hover .fa-linkedin {
+  color: #0a507e;
+}
+
+.icon:hover .fa-twitter {
+  color: #0d8adf;
+}
+
+.icon:hover .fa-github {
+  color: #808080;
+}
+
+.about, .projects, .contact {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.skills {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  text-align: left;
+  align-self: flex-start; /* Align the section to the left */
+}
+
+h2 {
+  color: #ffffff;
+}
+
+a {
+  color: #1DA1F2;
+}
+
+
+
+
+
+
+
